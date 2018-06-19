@@ -1,0 +1,1 @@
+export { RinconadaModule } from './rinconada/rinconada.module';

@@ -2,9 +2,15 @@
   "name": "cariquima",
   "version": "1.0.0",
   "description": "Conectores hacia Rinconada desde Wiphala y Huara",
-  "main": "index.js",
+  "main": "dist/index.js",
   "private": true,
+  "dependencies": {
+    "@angular/common": "^6.0.3",
+    "@angular/core": "^6.0.3",
+    "rxjs": "^6.0.0"
+  },
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/plazfer/cariquima/issues"
   },
-  "homepage": "https://github.com/plazfer/cariquima#readme"
+  "homepage": "https://github.com/plazfer/cariquima#readme",
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
 }
