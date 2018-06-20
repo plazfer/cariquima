@@ -5,9 +5,10 @@
   "main": "dist/index.js",
   "private": true,
   "dependencies": {
-    "@angular/common": "^6.0.3",
-    "@angular/core": "^6.0.3",
-    "rxjs": "^6.0.0"
+    "@angular/common": "^6.0.5",
+    "@angular/core": "^6.0.5",
+    "rxjs": "^6.2.1",
+    "rxjs-compat": "^6.2.1"
   },
   "scripts": {
     "build": "tsc",
